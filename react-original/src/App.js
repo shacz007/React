@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import Greet from './components/Greet';
 import Welcome from "./components/Welcome(cls)";
 import Message from "./components/Message";
+import Andex from "./prod/Andex";
 
 class App extends Component{
     render(){
         return(
             <div className="App">
+                <Andex/>
                 <Greet name="sac" surname="dds">
                     <p> 1st person</p>
                     </Greet>
