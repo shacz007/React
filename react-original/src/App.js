@@ -7,15 +7,19 @@ import Counter from "./components/Counter"
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import Eventbind from "./components/Eventbind";
+import InsertIMG from "./components/InsertIMG";
+import InsertIMGcls from "./components/InsertIMGcls";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
+                {/* <InsertIMG/>     */}
+                <InsertIMGcls></InsertIMGcls>
                 {/* <Counter/> */}
                 {/* <FunctionClick /> */}
                 {/* <ClassClick /> */}
-                <Eventbind/>
+                {/* <Eventbind/> */}
                 {/* <Andex/>
                 <Greet name="sac" surname="dds">
                     <p> 1st person</p>

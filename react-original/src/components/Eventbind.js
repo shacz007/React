@@ -10,7 +10,7 @@ class Eventbind extends Component{
         this.clickhandler = this.clickhandler.bind(this)
     }
     clickhandler(){
-        this.setState({
+        this.setState({ 
             message: 'good byeeeeeeeeeeee'
         })
     }
