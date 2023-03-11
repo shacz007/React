@@ -6,6 +6,4 @@ let Greet = (props)  => {
         {props.children}
     </div>)
 }
-
-
 export default Greet; 
