@@ -15,8 +15,8 @@ class App extends Component {
         return (
             <div className="App">
                 {/* <InsertIMG/>     */}
-                <InsertIMGcls></InsertIMGcls>
-                {/* <Counter/> */}
+                {/* <InsertIMGcls/> */}
+                <Counter/>
                 {/* <FunctionClick /> */}
                 {/* <ClassClick /> */}
                 {/* <Eventbind/> */}

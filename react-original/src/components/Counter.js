@@ -14,15 +14,18 @@ class Counter extends Component{
         // this.state.count = this.state.count + 1
         // do not modify the state directly use set state method
 
-       /*  this.setState({
+/* 
+        this.setState({
              count: this.state.count +1
         },()=>{
             console.log('callbackValue', this.state.count);
         })
 
-        console.log(this.state.count); */
-        this.setState((prevState)=>({
-            count: prevState.count +1
+        console.log(this.state.count);
+ */
+
+        this.setState((CurrentState)=>({
+            count: CurrentState.count +1
         }))
         console.log(this.state.count);
     }
