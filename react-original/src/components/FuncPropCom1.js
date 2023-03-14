@@ -6,7 +6,7 @@ function FuncPropCom1(){
     return (
         <div>
             <h1> this is FuncPropCom1</h1>
-            <FuncPropCom prop={name}/>
+            <FuncPropCom ename={name}/>
         </div>
     )
 }
