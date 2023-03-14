@@ -9,7 +9,8 @@ class ClassPROP extends Component{
                 <h1>ClassPropComp</h1>
                 {/* <FuncPropCom props={this.fullname}/> */}
                 <pre>{JSON.stringify(this.props)}</pre>
-                <h1>name </h1>
+                <h1>name {this.props.name}</h1>
+                <h1>name {this.props.last}</h1>
             </div>
         )
     }

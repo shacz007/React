@@ -4,6 +4,7 @@ import ClassPROP from "./ClassPROP";
 
 function FuncPropCom(props){
 let fullname = "cardamom";
+let lastname = "clove";
     return (
         <div>
             <h1> this is FUNCTION 1</h1>
@@ -11,7 +12,8 @@ let fullname = "cardamom";
             <h3>{props.ename}</h3>
             <img src={props.img}></img>
             <hr/>
-             <ClassPROP name={fullname} />
+             <ClassPROP name={fullname} last={lastname}/>
+             
              {/* <pre>{JSON.stringify(props)}</pre> */}
 
         </div>
