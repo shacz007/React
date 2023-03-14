@@ -5,7 +5,7 @@ function FuncPropCom(props){
         <div>
             <h1> this is FUNCTION 1</h1>
             <pre>{JSON.stringify(props)}</pre>
-            <h3>{props.name}</h3>
+            <h3>{props.prop}</h3>
         </div>
     )
 }
