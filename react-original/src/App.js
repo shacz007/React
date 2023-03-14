@@ -20,7 +20,8 @@ class App extends Component {
             <div className="App">
                 <FuncPropCom/>
                 <hr/>
-                <FuncPropCom1/>
+                {/* <FuncPropCom1/> */}
+                <hr/>
                 <ClassPROP></ClassPROP>
                 {/* <InsertIMG/>     */}
                 {/* <InsertIMGcls/> */}

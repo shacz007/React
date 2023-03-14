@@ -9,6 +9,7 @@ function FuncPropCom(props){
             <h3>{props.prop}</h3>
             <hr/>
              <ClassPROP name={props.image} />
+             <pre>{JSON.stringify(props)}</pre>
 
         </div>
     )
