@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FuncPropCom from "./FuncPropCom";
+// import FuncPropCom from "./FuncPropCom";
 
 class ClassPROP extends Component{
 
@@ -8,7 +8,9 @@ class ClassPROP extends Component{
         return(
             <div>
                 <h1>ClassPropComp</h1>
-                <FuncPropCom props={this.image}/>
+                {/* <FuncPropCom props={this.fullname}/> */}
+                <pre>{JSON.stringify(this.props)}</pre>
+                <h1>name {this.props.fullname}</h1>
             </div>
         )
     }

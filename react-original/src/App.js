@@ -18,9 +18,9 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                {/* <FuncPropCom/> */}
+                <FuncPropCom/>
             
-                <FuncPropCom1/>
+                {/* <FuncPropCom1/> */}
         
                 {/* <ClassPROP></ClassPROP> */}
                 {/* <InsertIMG/>     */}
