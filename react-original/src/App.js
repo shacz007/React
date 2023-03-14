@@ -11,15 +11,17 @@ import InsertIMG from "./components/InsertIMG";
 import InsertIMGcls from "./components/InsertIMGcls";
 import FuncPropCom from "./components/FuncPropCom";
 import FuncPropCom1 from "./components/FuncPropCom1"
+import ClassPROP from "./components/ClassPROP";
 
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                {/* <FuncPropCom/> */}
+                <FuncPropCom/>
                 <hr/>
                 <FuncPropCom1/>
+                <ClassPROP></ClassPROP>
                 {/* <InsertIMG/>     */}
                 {/* <InsertIMGcls/> */}
                 {/* <Counter/> */}
