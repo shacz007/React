@@ -18,12 +18,12 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                {/* <FuncPropCom/> */}
+                <FuncPropCom/>
                 <hr/>
                 {/* <FuncPropCom1/> */}
                 <hr/>
-                {/* <ClassPROP></ClassPROP> */}
-                <InsertIMG/>    
+                <ClassPROP></ClassPROP>
+                {/* <InsertIMG/>     */}
                 {/* <InsertIMGcls/> */}
                 {/* <Counter/> */}
                 {/* <FunctionClick /> */}
