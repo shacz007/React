@@ -9,14 +9,20 @@ import ClassClick from "./components/ClassClick";
 import Eventbind from "./components/Eventbind";
 import InsertIMG from "./components/InsertIMG";
 import InsertIMGcls from "./components/InsertIMGcls";
+import FuncPropCom from "./components/FuncPropCom";
+import FuncPropCom1 from "./components/FuncPropCom1"
+
 
 class App extends Component {
     render() {
         return (
             <div className="App">
+                {/* <FuncPropCom/> */}
+                <hr/>
+                <FuncPropCom1/>
                 {/* <InsertIMG/>     */}
                 {/* <InsertIMGcls/> */}
-                <Counter/>
+                {/* <Counter/> */}
                 {/* <FunctionClick /> */}
                 {/* <ClassClick /> */}
                 {/* <Eventbind/> */}
