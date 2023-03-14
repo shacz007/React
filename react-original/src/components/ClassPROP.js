@@ -2,7 +2,6 @@ import React, { Component } from "react";
 // import FuncPropCom from "./FuncPropCom";
 
 class ClassPROP extends Component{
-
     
     render(){
         return(
