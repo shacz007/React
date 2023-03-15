@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class classClick extends Component{
+class ClassClick extends Component{
     clickHandler (){
         console.log("button clicked")
     }
@@ -12,4 +12,4 @@ class classClick extends Component{
         )
     }
 }
-export default classClick
+export default ClassClick
