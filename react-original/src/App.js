@@ -13,12 +13,14 @@ import FuncPropCom from "./components/prostack/FuncPropCom";
 import FuncPropCom1 from "./components/prostack/FuncPropCom1"
 import ClassPROP from "./components/prostack/ClassPROP";
 import States from "./components/prostack/States";
+import Parentcomponent from "./components/codevo/Parentcomponent";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <States/>
+                <Parentcomponent></Parentcomponent>
+                {/* <States/> */}
                 {/* <FuncPropCom/> */}
                 {/* <FuncPropCom1/> */}
                 {/* <ClassPROP></ClassPROP> */}
