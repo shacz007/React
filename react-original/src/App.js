@@ -9,9 +9,9 @@ import ClassClick from "./components/ClassClick";
 import Eventbind from "./components/Eventbind";
 import InsertIMG from "./components/InsertIMG";
 import InsertIMGcls from "./components/InsertIMGcls";
-import FuncPropCom from "./components/FuncPropCom";
-import FuncPropCom1 from "./components/FuncPropCom1"
-import ClassPROP from "./components/ClassPROP";
+import FuncPropCom from "./components/prostack/FuncPropCom";
+import FuncPropCom1 from "./components/prostack/FuncPropCom1"
+import ClassPROP from "./components/prostack/ClassPROP";
 
 
 class App extends Component {
