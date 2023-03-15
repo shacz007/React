@@ -1,5 +1,5 @@
 import React from "react";
-import ClassPROP from "./ClassPROP";
+import ClassPROP from "./prostack/ClassPROP";
 
 
 function FuncPropCom(props){
