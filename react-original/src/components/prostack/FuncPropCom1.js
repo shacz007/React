@@ -1,5 +1,5 @@
 import React from "react";
-import FuncPropCom from "../FuncPropCom";
+import FuncPropCom from "./FuncPropCom";
 
 function FuncPropCom1(){
     let name=  "magic" ;
