@@ -27,7 +27,7 @@ class App extends Component {
                 {/* <InsertIMG/>     */}
                 {/* <InsertIMGcls/> */}
                 {/* <Counter/> */}
-                {/* <FunctionClick /> */}
+                {/* <FunctionClick /> */} 
                 {/* <ClassClick /> */}
                 {/* <Eventbind/> */}
                 {/* <Andex/>
