@@ -18,12 +18,14 @@ import Usergreeting from "./components/codevoFrom16/conditional render/Usergreet
 import NameList from "./components/codevoFrom16/List render/NameList";
 import PersonList from "./components/codevoFrom16/List render/PersonList";
 import PersonList1 from "./components/codevoFrom16/List render/PersonList1";
+import Normal from "./components/prostack/bind/Normal";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <PersonList1/>
+                <Normal/>
+                {/* <PersonList1/> */}
                 {/* <PersonList/> */}
                 {/* <NameList/> */}
                 {/* <Usergreeting/> */}
