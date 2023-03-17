@@ -16,12 +16,14 @@ import States from "./components/prostack/States";
 import Parentcomponent from "./components/codevo/Parentcomponent";
 import Usergreeting from "./components/codevoFrom16/conditional render/Usergreeting";
 import NameList from "./components/codevoFrom16/List render/NameList";
+import PersonList from "./components/codevoFrom16/List render/PersonList";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <NameList/>
+                <PersonList/>
+                {/* <NameList/> */}
                 {/* <Usergreeting/> */}
                 {/* <Parentcomponent></Parentcomponent> */}
                 {/* <States/> */}
