@@ -17,12 +17,14 @@ import Parentcomponent from "./components/codevo/Parentcomponent";
 import Usergreeting from "./components/codevoFrom16/conditional render/Usergreeting";
 import NameList from "./components/codevoFrom16/List render/NameList";
 import PersonList from "./components/codevoFrom16/List render/PersonList";
+import PersonList1 from "./components/codevoFrom16/List render/PersonList1";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <PersonList/>
+                <PersonList1/>
+                {/* <PersonList/> */}
                 {/* <NameList/> */}
                 {/* <Usergreeting/> */}
                 {/* <Parentcomponent></Parentcomponent> */}
