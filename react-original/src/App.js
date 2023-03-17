@@ -15,12 +15,14 @@ import ClassPROP from "./components/prostack/ClassPROP";
 import States from "./components/prostack/States";
 import Parentcomponent from "./components/codevo/Parentcomponent";
 import Usergreeting from "./components/codevoFrom16/conditional render/Usergreeting";
+import NameList from "./components/codevoFrom16/List render/NameList";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <Usergreeting/>
+                <NameList/>
+                {/* <Usergreeting/> */}
                 {/* <Parentcomponent></Parentcomponent> */}
                 {/* <States/> */}
                 {/* <FuncPropCom/> */}
