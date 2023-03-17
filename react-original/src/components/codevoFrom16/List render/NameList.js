@@ -1,14 +1,28 @@
 import React from 'react'
 
 function NameList() {
+    // 2nd type
     const names= ["manny", "loren", "kandy"]
+    const nameList = names.map(name=><h1>{name}</h1>)
+    
+  return (
+    <div>
+        {
+            nameList
+        }
+    </div>
+
+    
+    /* // 1st type
+    const names= ["manny", "loren", "kandy"]
+
   return (
     <div>
         {
             names.map(name=><h1>{name}</h1>)
         }
     </div>
-
+ */
 
 
     /*{ normal
