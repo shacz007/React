@@ -14,7 +14,7 @@ import FuncPropCom1 from "./components/prostack/FuncPropCom1"
 import ClassPROP from "./components/prostack/ClassPROP";
 import States from "./components/prostack/States";
 import Parentcomponent from "./components/codevo/Parentcomponent";
-import Usergreeting from "./components/codevoFrom16/Usergreeting";
+import Usergreeting from "./components/codevoFrom16/conditional render/Usergreeting";
 
 class App extends Component {
     render() {
