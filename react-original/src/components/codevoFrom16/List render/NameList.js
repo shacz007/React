@@ -4,12 +4,12 @@ function NameList() {
     
     // 2nd type
     const names= ["manny", "loren", "kandy"]
-    const nameList = names.map(name=><h1>{name}</h1>)
+    const nameList = names.map(name=><li>{name}</li>)
     
   return (
     <div>
         {
-            nameList
+            <ol>{nameList}</ol>
         }
     </div>
 

@@ -25,11 +25,11 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <WithBind/>
+                {/* <WithBind/> */}
                 {/* <Normal/> */}
                 {/* <PersonList1/> */}
                 {/* <PersonList/> */}
-                {/* <NameList/> */}
+                <NameList/>
                 {/* <Usergreeting/> */}
                 {/* <Parentcomponent></Parentcomponent> */}
                 {/* <States/> */}
