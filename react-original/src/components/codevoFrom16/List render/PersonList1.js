@@ -25,7 +25,7 @@ function PersonList1() {
         }
         
     ]
-    const personList = persons.map(person => <Person1 key={person.id} person={person}/>)
+    const personList = persons.map(person => <Person1 key={person.name} person={person}/>)
     
     return (
         <div>{personList}</div>
