@@ -22,13 +22,15 @@ import Normal from "./components/prostack/bind/Normal";
 import WithBind from "./components/prostack/bind/WithBind";
 import Loginform from "./components/prostack/Form Handling/Loginform1"
 import Loginform2 from "./components/prostack/Form Handling/Loginform2";
+import Loginform3 from "./components/prostack/Form Handling/Loginform3";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <Loginform2></Loginform2>
-                {/* <Loginform/> */}
+                <Loginform3/>
+                {/* <Loginform2></Loginform2> */}
+                {/* <Loginform1/> */}
                 {/* <WithBind/> */}
                 {/* <Normal/> */}
                 {/* <PersonList1/> */}
