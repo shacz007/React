@@ -20,7 +20,7 @@ import PersonList from "./components/codevoFrom16/List render/PersonList";
 import PersonList1 from "./components/codevoFrom16/List render/PersonList1";
 import Normal from "./components/prostack/bind/Normal";
 import WithBind from "./components/prostack/bind/WithBind";
-import Loginform from "./components/prostack/Form Handling/Loginform"
+import Loginform from "./components/prostack/Form Handling/Loginform1"
 
 class App extends Component {
     render() {
