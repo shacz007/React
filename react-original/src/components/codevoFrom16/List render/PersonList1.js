@@ -12,20 +12,20 @@ function PersonList1() {
             skill: "c"
         },
         {
-            id:1,
+            id:2,
             name: "gusssi",
             age: 14,
             skill: "c++"
         },
         {
-            id:1,
+            id:3,
             name: "minga",
             age: 65,
             skill: "js"
         }
         
     ]
-    const personList = persons.map(person => <Person1 person={person}/>)
+    const personList = persons.map(person => <Person1 key={person.id} person={person}/>)
     
     return (
         <div>{personList}</div>

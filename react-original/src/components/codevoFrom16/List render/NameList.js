@@ -6,10 +6,12 @@ function NameList() {
     const names= ["manny", "loren", "kandy","symphony","litaappp"]
     const nameList = names.map(name=><li>{name}</li>)
     
+    
   return (
     <div>
         {
             <ol>{nameList}</ol>
+            
         }
     </div>
 

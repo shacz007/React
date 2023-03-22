@@ -27,9 +27,9 @@ class App extends Component {
             <div className="App">
                 {/* <WithBind/> */}
                 {/* <Normal/> */}
-                {/* <PersonList1/> */}
+                <PersonList1/>
                 {/* <PersonList/> */}
-                <NameList/>
+                {/* <NameList/> */}
                 {/* <Usergreeting/> */}
                 {/* <Parentcomponent></Parentcomponent> */}
                 {/* <States/> */}
