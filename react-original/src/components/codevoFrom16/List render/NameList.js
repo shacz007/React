@@ -3,7 +3,7 @@ import React from 'react'
 function NameList() {
     
     // 2nd type
-    const names= ["manny", "loren", "kandy"]
+    const names= ["manny", "loren", "kandy","symphony","litaappp"]
     const nameList = names.map(name=><li>{name}</li>)
     
   return (
