@@ -21,12 +21,14 @@ import PersonList1 from "./components/codevoFrom16/List render/PersonList1";
 import Normal from "./components/prostack/bind/Normal";
 import WithBind from "./components/prostack/bind/WithBind";
 import Loginform from "./components/prostack/Form Handling/Loginform1"
+import Loginform2 from "./components/prostack/Form Handling/Loginform2";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <Loginform/>
+                <Loginform2></Loginform2>
+                {/* <Loginform/> */}
                 {/* <WithBind/> */}
                 {/* <Normal/> */}
                 {/* <PersonList1/> */}
