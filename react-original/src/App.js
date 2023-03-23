@@ -28,7 +28,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Loginform3/>
+                {/* <Loginform3/> */}
                 {/* <Loginform2></Loginform2> */}
                 {/* <Loginform1/> */}
                 {/* <WithBind/> */}
