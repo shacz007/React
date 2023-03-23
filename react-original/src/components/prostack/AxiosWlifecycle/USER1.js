@@ -10,6 +10,8 @@ class USER1 extends Component {
     }
     getData = ()=>{
         axios.get("https://jsonplaceholder.typicode.com/users")
+        .then()
+        .catch()
     }
   render() {
     return (
