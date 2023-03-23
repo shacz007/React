@@ -24,12 +24,14 @@ import Loginform from "./components/prostack/Form Handling/Loginform1"
 import Loginform2 from "./components/prostack/Form Handling/Loginform2";
 import Loginform3 from "./components/prostack/Form Handling/Loginform3";
 import USER1 from "./components/prostack/AxiosWlifecycle/USER1";
+import USER2 from "./components/prostack/AxiosWlifecycle/USER2";
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <USER1/>
+                <USER2/>
+                {/* <USER1/> */}
                 {/* <Loginform3/> */}
                 {/* <Loginform2></Loginform2> */}
                 {/* <Loginform1/> */}
