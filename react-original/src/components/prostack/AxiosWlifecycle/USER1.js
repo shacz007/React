@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
+
+// DONE WITH BUTTON TO DISPLAY DATA ONCLICK
+
 class USER1 extends Component {
     constructor(props){
         super(props)
@@ -10,12 +13,20 @@ class USER1 extends Component {
     }
     getData = ()=>{
         axios.get("https://jsonplaceholder.typicode.com/users")
-        .then()
-        .catch()
+        .then((resp)=>{
+            console.log(resp.data);
+            this.setState({user : resp.data})
+        })
+        .catch((err)=>{
+            console.log(err.data);
+        })
     }
   render() {
     return (
-      <div></div>
+      <div>
+        <pre>{JSON.stringify(this.state)}</pre>
+        <button onClick={this.getData}>CLICK me</button>
+      </div>
     )
   }
 }
