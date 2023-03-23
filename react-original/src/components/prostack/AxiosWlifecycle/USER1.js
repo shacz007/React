@@ -26,6 +26,7 @@ class USER1 extends Component {
       <div>
         <pre>{JSON.stringify(this.state)}</pre>
         <button onClick={this.getData}>CLICK me</button>
+        
       </div>
     )
   }
