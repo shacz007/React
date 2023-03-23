@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Axios from ''
 
 class USER1 extends Component {
     constructor(props){
@@ -6,6 +7,9 @@ class USER1 extends Component {
         this.state ={
             users:[]
         }
+    }
+    getData = ()=>{
+        Axios.get
     }
   render() {
     return (
