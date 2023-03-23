@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Axios from ''
+import axios from 'axios'
 
 class USER1 extends Component {
     constructor(props){
@@ -9,7 +9,7 @@ class USER1 extends Component {
         }
     }
     getData = ()=>{
-        Axios.get
+        axios.get("https://jsonplaceholder.typicode.com/users")
     }
   render() {
     return (
