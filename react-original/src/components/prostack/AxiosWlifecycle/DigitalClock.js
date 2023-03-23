@@ -19,7 +19,7 @@ export class DigitalClock extends Component {
     return (
       <div>
         <h1 style={{fontsize : 50}}>DigitalClock</h1>
-        <h1 style={{fontSize: 300}}>{this.state.currentTime}</h1>
+        <h1 style={{fontSize: 300, color: 'Limegreen'}}>{this.state.currentTime}</h1>
         </div>
     )
   }
