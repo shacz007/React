@@ -8,7 +8,6 @@ import ClassClick from "./components/codevo/ClassClick";
 import Eventbind from "./components/codevo/Eventbind";
 import InsertIMG from "./components/codevo/InsertIMG";
 import InsertIMGcls from "./components/codevo/InsertIMGcls";
-
 import Parentcomponent from "./components/codevo/Parentcomponent";
 import Usergreeting from "./components/codevoFrom16/conditional render/Usergreeting";
 import NameList from "./components/codevoFrom16/List render/NameList";
