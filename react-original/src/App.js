@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Greet from './components/codevo/Greet';
 import Welcome from "./components/codevo/Welcome(cls)";
 import Message from "./components/codevo/Message";
-import Andex from "./components/prod/Andex";
 import Counter from "./components/codevo/Counter"
 import FunctionClick from "./components/codevo/FunctionClick";
 import ClassClick from "./components/codevo/ClassClick";
@@ -54,8 +53,7 @@ class App extends Component {
                 {/* <FunctionClick /> */} 
                 {/* <ClassClick /> */}
                 {/* <Eventbind/> */}
-                {/* <Andex/>
-                <Greet name="sac" surname="dds">
+               {/* <Greet name="sac" surname="dds">
                     <p> 1st person</p>
                     </Greet>
                 <Greet name="sacyt" surname="ggs">
