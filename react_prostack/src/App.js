@@ -7,10 +7,10 @@ import Loginform3 from "./components/prostack/Form Handling/Loginform3";
 import USER1 from "./components/prostack/AxiosWlifecycle/USER1";
 import USER2 from "./components/prostack/AxiosWlifecycle/USER2";
 import DigitalClock from "./components/prostack/AxiosWlifecycle/DigitalClock";
-import FuncPropCom from "./components/states&props/FuncPropCom";
-import FuncPropCom1 from "./components/states&props/FuncPropCom1"
-import ClassPROP from "./components/states&props/ClassPROP"; 
-import States from "./components/states&props/States";
+import FuncPropCom from "./components/prostack/states&props/FuncPropCom";
+import FuncPropCom1 from "./components/prostack/states&props/FuncPropCom1"
+import ClassPROP from "./components/prostack/states&props/ClassPROP"; 
+import States from "./components/prostack/states&props/States";
 
 
 function App() {
