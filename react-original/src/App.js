@@ -20,15 +20,12 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <DigitalClock/>
                 
                 {/* <PersonList1/> */}
                 {/* <PersonList/> */}
                 {/* <NameList/> */}
                 {/* <Usergreeting/> */}
                 {/* <Parentcomponent></Parentcomponent> */}
-                {/* <States/> */}
-                
                 {/* <InsertIMG/>     */}
                 {/* <InsertIMGcls/> */}
                 {/* <Counter/> */}

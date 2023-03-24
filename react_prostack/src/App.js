@@ -16,17 +16,20 @@ import States from "./components/prostack/States";
 function App() {
   return (
     <>
-     {/* <USER2/> */}
-                {/* <USER1/> */}
-                {/* <Loginform3/> */}
-                {/* <Loginform2></Loginform2> */}
-                {/* <Loginform1/> */}
-                {/* <WithBind/> */}
-                {/* <Normal/> */}
-                {/* <FuncPropCom/> */}
-                {/* <FuncPropCom1/> */}
-                {/* <ClassPROP></ClassPROP> */}
+      <DigitalClock />
+      {/* <USER2/> */}
+      {/* <USER1/> */}
+      {/* <Loginform3/> */}
+      {/* <Loginform2></Loginform2> */}
+      {/* <Loginform1/> */}
+      {/* <WithBind/> */}
+      {/* <Normal/> */}
+      {/* <FuncPropCom/> */}
+      {/* <FuncPropCom1/> */}
+      {/* <States/> */}
+      {/* <ClassPROP></ClassPROP> */}
+
     </>
   )
-  }
+}
 export default App
