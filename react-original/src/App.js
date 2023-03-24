@@ -20,7 +20,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                
+
                 {/* <PersonList1/> */}
                 {/* <PersonList/> */}
                 {/* <NameList/> */}
@@ -29,10 +29,10 @@ class App extends Component {
                 {/* <InsertIMG/>     */}
                 {/* <InsertIMGcls/> */}
                 {/* <Counter/> */}
-                {/* <FunctionClick /> */} 
+                {/* <FunctionClick /> */}
                 {/* <ClassClick /> */}
                 {/* <Eventbind/> */}
-               {/* <Greet name="sac" surname="dds">
+                {/* <Greet name="sac" surname="dds">
                     <p> 1st person</p>
                     </Greet>
                 <Greet name="sacyt" surname="ggs">
