@@ -11,12 +11,12 @@ import FuncPropCom from "./components/prostack/states&props/FuncPropCom";
 import FuncPropCom1 from "./components/prostack/states&props/FuncPropCom1"
 import ClassPROP from "./components/prostack/states&props/ClassPROP"; 
 import States from "./components/prostack/states&props/States";
+import NAV from './components/prostack/React-router@5/NAV';
+import Home from './components/prostack/React-router@5/Home';
 import About from './components/prostack/React-router@5/About';
 import Services from './components/prostack/React-router@5/Services';
 import Login from './components/prostack/React-router@5/Login';
 import Contact from './components/prostack/React-router@5/Contact';
-import NAV from './components/prostack/React-router@5/NAV';
-import Home from './components/prostack/React-router@5/Home';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -27,6 +27,10 @@ function App() {
       <NAV/>
       <Switch>
         <Route path="./Home" component={Home}></Route>
+        <Route path="./About" component={About}></Route>
+        <Route path="./Services" component={Services}></Route>
+        <Route path="./Login" component={Login}></Route>
+        <Route path="./Contact" component={Contact}></Route>
       </Switch>
       </Router> 
       </div>  
