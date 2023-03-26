@@ -13,13 +13,14 @@ import Usergreeting from "./components/codevoFrom16/conditional render/Usergreet
 import NameList from "./components/codevoFrom16/List render/NameList";
 import PersonList from "./components/codevoFrom16/List render/PersonList";
 import PersonList1 from "./components/codevoFrom16/List render/PersonList1";
+import Css from "./components/Css";
 
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-
+                <Css/>
                 {/* <PersonList1/> */}
                 {/* <PersonList/> */}
                 {/* <NameList/> */}
