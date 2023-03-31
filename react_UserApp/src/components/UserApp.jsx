@@ -22,17 +22,17 @@ class UserApp extends Component {
   
   render() {
     return (
-      <div>
+      <div className='container'>
         <h3>USER APP</h3>
-        <div>
+        <div className='row'>
           <pre>{JSON.stringify(this.state.user)}</pre>
-          <div>
+          <div className='col-md-8'>
             {
               Object.keys(this.state.user).length > 0 ? <>
               <UserList users={this.state.user.users} /></>: null
             }
           </div>
-          <div>
+          <div className='col-md-4'>
             <UserDetails></UserDetails>
           </div>
         </div>

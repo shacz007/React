@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 export class UserList extends Component {
   render() {
     return (
-      <div>
+      <div className='container'>
         <h3>USeR LIST</h3>
-        <div>
+        <div className='row'>
             <pre>{JSON.stringify(this.props)}</pre>
-            <div>
-                <table>
-                    <thead>
+            <div className='col'>
+                <table className='table table-hover'>
+                    <thead className='bg-primary text-white'>
                         <tr>
                             <td>Id</td>
                             <td>First Name</td>
