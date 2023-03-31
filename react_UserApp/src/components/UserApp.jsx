@@ -9,8 +9,14 @@ class UserApp extends Component {
     super(props)
   
     this.state = {
-       user : {}
+       user : {},
+       sel_User:{}
     }
+  }
+  selected_User =  (user) => {
+    console.log("invoking from user List")
+    console.log(user)
+    this.setState({ sel_User: user })
   }
     componentDidMount() {
       axios.get('https://dummyjson.com/users')
@@ -33,7 +39,10 @@ class UserApp extends Component {
             }
           </div>
           <div className='col-md-4'>
-            <UserDetails></UserDetails>
+            {
+              Object.keys(this.state.sel_User).length >  0 ? <>
+              <UserDetails user={this.state.sel_User} /></> : null
+            }
           </div>
         </div>
       </div>
