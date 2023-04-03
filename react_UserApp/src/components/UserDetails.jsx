@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// user details
 
 export class UserDetails extends Component {
   render() {
