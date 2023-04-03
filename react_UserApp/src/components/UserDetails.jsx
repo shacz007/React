@@ -13,7 +13,7 @@ export class UserDetails extends Component {
             <ul className='list-group'>
               <li  className='list-group-item'>{this.props.user.id}</li>
               <li className='list-group-item'>{this.props.user.firstname}</li>
-              <li className='list-group-item'>{this.props.user.email}</li>
+              <li className='list-group-item'>{this.props.user.email}</li>  
             </ul>
           </div>
         </div>
