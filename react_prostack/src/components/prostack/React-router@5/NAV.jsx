@@ -9,6 +9,7 @@ const NAV = ()=>{
         </Link>
  
         <div>
+            <hr></hr>
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -16,6 +17,7 @@ const NAV = ()=>{
                 <li>Contact</li>
                 <li>Login</li>
             </ul>
+            <hr></hr>
         </div>
     </nav>
 }
