@@ -18,12 +18,19 @@ import Services from './components/prostack/React-router@5/Services';
 import Login from './components/prostack/React-router@5/Login';
 import Contact from './components/prostack/React-router@5/Contact';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Message from './Message/Message';
 
 function App() {
   return (
     <>
     <div>
-      <Router>
+    <div>
+        <nav>
+            <a href="#">Redux Example</a>
+        </nav>
+        <Message />
+        </div>
+      {/* <Router>
       <NAV/>
       <Switch>
         <Route path="./Home" component={Home}></Route>
@@ -32,7 +39,7 @@ function App() {
         <Route path="./Login" component={Login}></Route>
         <Route path="./Contact" component={Contact}></Route>
       </Switch>
-      </Router> 
+      </Router>  */}
       </div>  
       {/* <DigitalClock /> */}
       {/* <USER2/> */}
