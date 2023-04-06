@@ -24,12 +24,14 @@ function App() {
   return (
     <>
     <div>
+      <hr></hr>
     {/* <div>
         <nav>
             <a href="#">Redux Example</a>
         </nav>
         <Message />
         </div> */}
+        <hr></hr>
       {/* <Router>
       <NAV/>
       <Switch>
