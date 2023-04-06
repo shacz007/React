@@ -46,7 +46,9 @@ function App() {
       <hr></hr>
       </div>  
       {/* <DigitalClock /> */}
+      <hr></hr>
       {/* <USER2/> */}
+      <hr></hr>
       {/* <USER1/> */}
       {/* <Loginform3/> */}
       {/* <Loginform2></Loginform2> */}
