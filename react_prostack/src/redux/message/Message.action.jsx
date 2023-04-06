@@ -9,5 +9,5 @@ let gmAction = () => {
 let gnAction = () => {
     return { type: GN }
 }
-
+// incolves newer function
 export { gmAction, gnAction, GM, GN }
