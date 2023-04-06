@@ -42,6 +42,7 @@ function App() {
         <Route path="./Contact" component={Contact}></Route>
       </Switch>
       </Router>  */}
+      <hr></hr>
       </div>  
       {/* <DigitalClock /> */}
       {/* <USER2/> */}
