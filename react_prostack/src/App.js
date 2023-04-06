@@ -50,7 +50,9 @@ function App() {
       {/* <USER2/> */}
       <hr></hr>
       {/* <USER1/> */}
+      <hr></hr>
       {/* <Loginform3/> */}
+      <hr></hr>
       {/* <Loginform2></Loginform2> */}
       {/* <Loginform1/> */}
       {/* <WithBind/> */}
