@@ -58,7 +58,9 @@ function App() {
       {/* <Loginform1/> */}
       <hr></hr>
       {/* <WithBind/> */}
+      <hr></hr>
       {/* <Normal/> */}
+      <hr></hr>
       {/* <FuncPropCom/> */}
       {/* <FuncPropCom1/> */}
       {/* <States/> */}
