@@ -40,6 +40,7 @@ function App() {
         <Route path="./Services" component={Services}></Route>
         <Route path="./Login" component={Login}></Route>
         <Route path="./Contact" component={Contact}></Route>
+        <hr />
       </Switch>
       </Router>  */}
       <hr></hr>
