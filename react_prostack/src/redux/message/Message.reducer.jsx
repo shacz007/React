@@ -1,5 +1,5 @@
 
-import { GM, GN } from './message.action'
+import { GM, GN } from "./Message.action"
 let initialState = {
     message: "Hello"
 }
