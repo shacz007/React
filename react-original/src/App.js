@@ -1,3 +1,4 @@
+// all componenets are imported 
 import React, { Component } from "react";
 import Greet from './components/codevo/Greet';
 import Welcome from "./components/codevo/Welcome(cls)";
@@ -15,7 +16,7 @@ import PersonList from "./components/codevoFrom16/List render/PersonList";
 import PersonList1 from "./components/codevoFrom16/List render/PersonList1";
 import Css from "./components/Css";
 
-
+// App.js is bridge
 class App extends Component {
     render() {
         return (
